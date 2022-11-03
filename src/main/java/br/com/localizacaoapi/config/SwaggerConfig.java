@@ -40,7 +40,7 @@ public class SwaggerConfig {
         
 
         final Server server = new Server();
-        server.setUrl("http://localhost/");
+        server.setUrl("https://api-localizacao.herokuapp.com/");
         openAPI.setServers(Collections.singletonList(server));
         return openAPI;
     }

@@ -239,7 +239,7 @@ public class CidadeService {
 	}
 	
 	private void validationCity(Optional<Cidade> cidade) {
-		if(cidade.equals(null) || cidade.isEmpty()) {
+		if(cidade.equals(null)) {
 			throw new NullPointerException();
 		}
 	}
